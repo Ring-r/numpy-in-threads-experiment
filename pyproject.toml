@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "numpy-in-threads-experiment"
+version = "0.0.0.1"
+description = "there is an experiment to check if code with python multithreading works parallel when using numpy"
+authors = ["Rostyslav Pudlo <rostyslav.pudlo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+mypy = "^1.9.0"
+ruff = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
